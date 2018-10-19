@@ -1,8 +1,16 @@
 Package: qtl2extra
-Title: What the Package Does (one line, title case)
+Title: Extra Functions to Complement qtl2 R Package
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: c(
+    person(given = "Frederick", 
+    family = "Boehm", 
+    email = "frederick.boehm@gmail.com", 
+    role = c("aut", "cre"),
+    comment = c(ORCID = "0000-0002-1644-5931")
+    )
+    )
+Maintainer: Frederick Boehm <frederick.boehm@gmail.com>
+Description: The package provides functions that I use to complement those functions in rqtl/qtl2.
 Depends: R (>= 3.5.1)
 License: MIT + file LICENSE
 Encoding: UTF-8
